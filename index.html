@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>The Mask Launch Party</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css">
+    <link z rel="shortcut icon" href="./favicon.ico?v=4.0" type="image/x-icon">
+
+    <!-- Fontawesome Icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.3/js/all.js"></script>
+
+    <style>
+        @media screen and (max-width: 767px) {
+            body {
+                background-image: url(./media/the-voice-fallback.PNG);
+                background-color: black;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            #bgvid {
+                display: none;
+            }
+            /*allow map to collapse properly on mobile.*/
+            .full_height_parent {
+                display: block;
+            }
+            /*Nicely disable the parallax */
+            .parallax-window {
+                background-attachment: local;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Video and title/logo -->
+    <div id="top" class="jumbotron bg-transparent fullheight">
+        <div id='title' class="container text-xs-center text-white">
+            <div class="bg">
+                <video autoplay muted loop id="bgvid">
+                    <source src="./media/launch-video.m4v" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="">
+        <a href="https://aswwu.com/old"><button id="aswwu" class="btn btn-primary text">aswwu.com</button></a>
+      </div>
+      <div class="">
+        <h1 id="time" class="text">9 PM in the Black Box</h1>
+      </div>
+    </div>
+
+    <!-- Javascript stuff  -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/tether.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.smooth-scroll.js"></script>
+    <script src="./js/custom.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBahOC0C4N-7MOD_Qn8446o5QiXX6AmWhc&callback=initMap">
+    </script>
+</body>
+
+</html>
